@@ -1,0 +1,23 @@
+{
+    "name": "saasformation/vendor-aggregate",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SaaSFormation\\Vendor\\Aggregate\\": "src/",
+            "SaaSFormation\\Vendor\\Aggregate\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaaSFormation",
+            "email": "info@saasformation.com"
+        }
+    ],
+    "require": {
+        "stratdes/vo": "^2.0.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
